@@ -10,12 +10,12 @@ class DayOne: IRunDay {
     Console.WriteLine ("--------- DayOne ---------");
     Part1();
     stopwatch.Stop();
-    Console.WriteLine("Time elapsed: {0}", stopwatch.ElapsedMilliseconds);
+    Console.WriteLine("Time elapsed: {0} ms", stopwatch.ElapsedMilliseconds);
     Console.WriteLine ("--------- DayOne Part2 ---------");
     stopwatch = Stopwatch.StartNew();
     Part2();
     stopwatch.Stop();
-    Console.WriteLine("Time elapsed: {0}", stopwatch.ElapsedMilliseconds);
+    Console.WriteLine("Time elapsed: {0} ms", stopwatch.ElapsedMilliseconds);
   }
 
   private void Part1() {
